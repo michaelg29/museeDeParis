@@ -69,7 +69,7 @@ body {
     text-align: center;
 }
 
-a.btn {
+.btn {
     display: block;
     padding: 15px;
     text-decoration: none;
@@ -98,7 +98,7 @@ p {
     font-weight: bold;
 }
 
-p a {
+p:not(.btn) a {
     font-weight: bold;
     -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
 }
